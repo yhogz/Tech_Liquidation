@@ -517,6 +517,7 @@
     <None Include="Resources\search.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\MyFunction.dll" />
     <None Include="Resources\printer_basic_red.png" />
     <None Include="Resources\search_basic_red.png" />
     <None Include="Resources\search1.png" />
