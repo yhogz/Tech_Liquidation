@@ -16,5 +16,15 @@ namespace TECH_SOFTWARE
         {
             InitializeComponent();
         }
+
+        private void newFrm_Load(object sender, EventArgs e)
+        {
+            //comment
+        }
+
+        public void test()
+        {
+            Console.WriteLine("test");
+        }
     }
 }
