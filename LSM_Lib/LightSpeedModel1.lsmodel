@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.1.0.0" name="LightSpeedModel1" targetNamespace="LSM_Lib" databaseProvider="MySql5" connectionString="server=localhost;User Id=rdms_user;password=1r1d2m7s1d1atabase;Persist Security Info=True;database=dbliquidation" pluralizedInDatabase="false" mediumTrustCompatibility="false" xmlns="http://namespaces.mindscape.co.nz/lightspeed">
+  <entities>
+    <entity name="Tblbreakdown" identityType="Int64" cacheExpiry="0" identityColumnName="Bid">
+      <entityProperties>
+        <entityProperty name="Cost" dataType="Decimal" isNullable="true" privateSetter="false" />
+        <entityProperty name="Ltype" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Description" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="150" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Lcode" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+      </entityProperties>
+    </entity>
+    <entity name="Tbluser" identityType="Int64" cacheExpiry="0" tableName="tblusers" identityColumnName="Uid">
+      <entityProperties>
+        <entityProperty name="Name" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Username" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Password" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Type" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="20" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="DateCreated" dataType="DateTime" isNullable="true" columnName="date_created" privateSetter="false" />
+        <entityProperty name="Active" dataType="Int32" isNullable="true" privateSetter="false" />
+        <entityProperty name="UserCode" isNullable="true" columnName="user_code" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Prev" dataType="Int32" isNullable="true" privateSetter="false" />
+      </entityProperties>
+    </entity>
+    <entity name="Tblliquidation" identityType="Int64" cacheExpiry="0" identityColumnName="Lid">
+      <entityProperties>
+        <entityProperty name="DDate" dataType="DateTime" isNullable="true" columnName="d_date" privateSetter="false" />
+        <entityProperty name="Destination" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="100" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="PetcName" isNullable="true" columnName="petc_name" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="200" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Task" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="250" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="LTotal" dataType="Decimal" isNullable="true" columnName="l_total" privateSetter="false" />
+        <entityProperty name="DateEncoded" dataType="DateTime" isNullable="true" columnName="date_encoded" privateSetter="false" />
+        <entityProperty name="UserCode" isNullable="true" columnName="user_code" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Checked" dataType="Int32" isNullable="true" privateSetter="false" />
+        <entityProperty name="Approved" dataType="Int32" isNullable="true" privateSetter="false" />
+        <entityProperty name="Released" dataType="Int32" isNullable="true" privateSetter="false" />
+        <entityProperty name="Lcode" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="JrfNumber" isNullable="true" columnName="jrf_number" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="MiddleName" isNullable="true" columnName="middle_name" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="LastName" isNullable="true" columnName="last_name" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="CheckedDate" dataType="DateTime" isNullable="true" columnName="checked_date" privateSetter="false" />
+        <entityProperty name="ApprovedDate" dataType="DateTime" isNullable="true" columnName="approved_date" privateSetter="false" />
+        <entityProperty name="ReleasedDate" dataType="DateTime" isNullable="true" columnName="released_date" privateSetter="false" />
+        <entityProperty name="Name" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="200" />
+          </validations>
+        </entityProperty>
+      </entityProperties>
+    </entity>
+    <entity name="Tblnotification" identityType="Int64" cacheExpiry="0" identityColumnName="Nid">
+      <entityProperties>
+        <entityProperty name="Targettype" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Sourcetype" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="TargetId" isNullable="true" columnName="target_id" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="10" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="SourceId" isNullable="true" columnName="source_id" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="10" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="NotifInfo" isNullable="true" columnName="notif_info" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="250" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="NotifDate" dataType="DateTime" isNullable="true" columnName="notif_date" privateSetter="false" />
+        <entityProperty name="ViewStatus" dataType="Int32" isNullable="true" columnName="view_status" privateSetter="false" />
+        <entityProperty name="Lcode" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="NotifDatetime" dataType="DateTime" isNullable="true" columnName="notif_datetime" privateSetter="false" />
+      </entityProperties>
+    </entity>
+    <entity name="TblController" identityType="Int32" cacheExpiry="0" tableName="tbl_controller">
+      <entityProperties>
+        <entityProperty name="ProductVersion" privateSetter="false">
+          <validations>
+            <presenceValidation />
+            <lengthValidation minimumLength="0" maximumLength="10" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Isactive" dataType="Boolean" privateSetter="false" />
+        <entityProperty name="ProductName" privateSetter="false">
+          <validations>
+            <presenceValidation />
+            <lengthValidation minimumLength="0" maximumLength="100" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="AuthorizedUser" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="100" />
+          </validations>
+        </entityProperty>
+      </entityProperties>
+    </entity>
+    <entity name="Tblusersmod" identityType="Int32" cacheExpiry="0">
+      <entityProperties>
+        <entityProperty name="UserCode" columnName="user_code" privateSetter="false">
+          <validations>
+            <presenceValidation />
+            <lengthValidation minimumLength="0" maximumLength="25" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Jrf" dataType="Boolean" isNullable="true" privateSetter="false" />
+        <entityProperty name="LightspeedChecker" dataType="Boolean" isNullable="true" privateSetter="false" />
+      </entityProperties>
+    </entity>
+    <entity name="Tbljrf" identityType="Int64" cacheExpiry="0" identityColumnName="Jid">
+      <entityProperties>
+        <entityProperty name="Jrf" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="20" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="DateCreated" dataType="DateTime" isNullable="true" columnName="Date_Created" privateSetter="false" />
+        <entityProperty name="AssignPerson" isNullable="true" columnName="assign_person" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Active" dataType="Int32" isNullable="true" privateSetter="false" />
+        <entityProperty name="Print" dataType="Int32" isNullable="true" privateSetter="false" />
+        <entityProperty name="GeneratedBy" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="100" />
+          </validations>
+        </entityProperty>
+      </entityProperties>
+    </entity>
+  </entities>
+</model>

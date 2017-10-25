@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<minimalLanguageDiagram dslVersion="1.1.0.0" absoluteBounds="0, 0, 16.125, 10.25" name="LightSpeedModel1">
+  <modelMoniker name="/LightSpeedModel1" />
+  <nestedChildShapes>
+    <entityShape Id="c9924bf0-f2e0-4d37-98e0-6760d2701738" absoluteBounds="0.875, 1.75, 1.5, 1.4715071614583328">
+      <entityMoniker name="/LightSpeedModel1/TblPetc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3b41ea39-c08d-41af-b491-43a2124e809d" absoluteBounds="0.89, 2.16, 1.4700000000000002, 0.96150716145833326" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+    <entityShape Id="bbf0a7bf-feed-441a-b438-abcdfcdc8c77" absoluteBounds="3.125, 2.5, 1.5, 2.0484114583333328">
+      <entityMoniker name="/LightSpeedModel1/Tbluser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d62d228c-d44f-484c-8fe3-24acbf0570e1" absoluteBounds="3.14, 2.91, 1.4700000000000002, 1.5384114583333333" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+    <entityShape Id="9c3aaabe-b35b-42aa-87ea-324007e8e729" absoluteBounds="5.375, 3.25, 1.5, 1.2792057291666668">
+      <entityMoniker name="/LightSpeedModel1/TblTechnician" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3d72b079-c60b-4646-b8a8-acbaef3c17b2" absoluteBounds="5.3900000000000006, 3.66, 1.4700000000000002, 0.76920572916666663" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+    <entityShape Id="464ad4c3-2eb1-4a6b-82fc-3f796c6cdd71" absoluteBounds="7.625, 4, 1.5, 2.240712890625">
+      <entityMoniker name="/LightSpeedModel1/Tblbreakdown" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a254c4ce-8697-411e-9b86-c05de960c332" absoluteBounds="7.64, 4.41, 1.4700000000000002, 1.730712890625" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+    <entityShape Id="df8469da-e174-4f1e-9429-1b82a985da08" absoluteBounds="9.875, 4.75, 1.5, 1.4715071614583333">
+      <entityMoniker name="/LightSpeedModel1/Tbljrf" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0880ec49-a661-4891-bb5d-e9d581ef44c6" absoluteBounds="9.89, 5.16, 1.4700000000000002, 0.96150716145833326" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+    <entityShape Id="735a5018-3974-4c1b-b1ad-b1bfb6df8cc5" absoluteBounds="12.125, 5.5, 1.5, 4.548330078125">
+      <entityMoniker name="/LightSpeedModel1/Tblliquidation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ff81d6de-cb0e-47e3-9c56-8dae05c0f16a" absoluteBounds="12.14, 5.91, 1.4700000000000002, 4.038330078125" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+    <entityShape Id="671fc883-eedf-4dfd-b635-ada113736a7e" absoluteBounds="14.375, 6.25, 1.5, 2.2407128906250002">
+      <entityMoniker name="/LightSpeedModel1/Tblnotification" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7db6c3ad-6678-4d95-bdfc-44ce736d5b0d" absoluteBounds="14.39, 6.66, 1.4700000000000002, 1.730712890625" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+  </nestedChildShapes>
+</minimalLanguageDiagram>

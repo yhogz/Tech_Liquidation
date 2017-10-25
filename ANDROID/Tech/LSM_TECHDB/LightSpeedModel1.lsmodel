@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.1.0.0" name="LightSpeedModel1" targetNamespace="LSM_TECHDB" databaseProvider="SqlServer2008" connectionString="Data Source=192.168.1.52;Initial Catalog=RDMS_DB;Persist Security Info=True;User ID=sa;Password=1234567;Pooling=False" pluralizedInDatabase="false" mediumTrustCompatibility="false" xmlns="http://namespaces.mindscape.co.nz/lightspeed">
+  <entities>
+    <entity name="TblTechDeployment" identityType="Int64" cacheExpiry="0">
+      <entityProperties>
+        <entityProperty name="Username" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Mobileno" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Petcname" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="150" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="TechTasks" isNullable="true" columnName="TECH_TASKS" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="500" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="DateDeployment" dataType="DateTime" isNullable="true" columnName="DATE_DEPLOYMENT" privateSetter="false" />
+        <entityProperty name="TasksDescription" isNullable="true" columnName="TASKS_DESCRIPTION" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="500" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Longtitude" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Latitude" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Location" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="350" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="UploadedCode" isNullable="true" columnName="UPLOADED_CODE" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="UploadedDate" dataType="DateTime" isNullable="true" columnName="UPLOADED_DATE" privateSetter="false" />
+        <entityProperty name="TechImage" dataType="Blob" isNullable="true" columnName="TECH_IMAGE" privateSetter="false" />
+        <entityProperty name="DateFiled" dataType="DateTime" isNullable="true" columnName="DATE_FILED" privateSetter="false" />
+        <entityProperty name="GenCode" isNullable="true" columnName="GEN_CODE" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="SerialCode" isNullable="true" columnName="SERIAL_CODE" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+      </entityProperties>
+    </entity>
+  </entities>
+</model>

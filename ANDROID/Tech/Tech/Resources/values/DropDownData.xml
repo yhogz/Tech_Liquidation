@@ -1,0 +1,352 @@
+﻿
+
+ <?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!---TASKS-->
+  <string name="tasks_prompt">Choose Type</string>
+  <string-array name="tasks_array">
+    <item>*SELECT TASK</item>
+    <item>DTI Inspection</item>
+    <item>Format PC</item>
+    <item>Hardware Problem</item>
+    <item>Interfacing</item>
+    <item>Internet Problem</item>
+    <item>LTO Inspection</item>
+    <item>Training for Encoder</item>
+    <item>Others</item>
+  </string-array>
+
+  <!---PETC's-->
+  <string name="petc_prompt">Choose Type</string>
+  <string-array name="petc_array">
+    <item>*SELECT PETC Name</item>
+    <item>168 EMISSION TESTING CENTER - Marilao</item>
+    <item>168 EMISSION TESTING CENTR - Bataan</item>
+    <item>7 ARCHANGELS EMISSION TESTING CENTER - Tanza</item>
+    <item>7ARCHANGELS EMISSION TESTING CENTER</item>
+    <item>888 Emission Testing Center</item>
+    <item>888 Emission Testing Center - Concepcion</item>
+    <item>888 Emission Testing Center - Franchise</item>
+    <item>888 Emission Testing Center - Magalang</item>
+    <item>9 Realms Emission Testing Center</item>
+    <item>A. M. Pacleb Enterprises Inc. - Sta. Elena</item>
+    <item>A. M. Pacleb Enterprises, Inc.</item>
+    <item>AD MENCIO EMISSION TESTING CENTER</item>
+    <item>AIR MASTER EMISSION CENTER INC. -  Molino</item>
+    <item>AIR MASTER EMISSION CENTER, INC. - Laguna</item>
+    <item>AIR SOLUTIONS EMISSION TESTING CENTER</item>
+    <item>AIR WORTHYNESS EMISSION TESTING CENTER CO.</item>
+    <item>AIRMIX EMISSION TESTING CENTER - BALOC</item>
+    <item>AIRMIX EMISSION TESTING CENTER - PALAYAN</item>
+    <item>AIRMIX EMISSION TESTING CENTER - San Isidro</item>
+    <item>Airtool Emission Testing Center Corp.</item>
+    <item>AKZ EMISSION TESTING CENTER</item>
+    <item>ALFONSO LISTA EMISSION TESTING CENTER</item>
+    <item>ALT EMISSION TEST CENTER - Catalunan</item>
+    <item>ALT Emission Testing Center</item>
+    <item>Amie Trading  Emission Test Services Center</item>
+    <item>AMP EMISSION TESTING CENTER</item>
+    <item>AND 01 EMISSION TEST CENTER</item>
+    <item>ANDREW\'S EMISSION TESTING CENTER</item>
+    <item>ANDY\'S EMISSION TESTING</item>
+    <item>ANTHONY CARMONA EMISSION TESTING CENTER</item>
+    <item>APN Private Emission Testing Center</item>
+    <item>APN PRIVATE EMISSION TESTING CENTER - Jagna</item>
+    <item>ARABIA EMISSION TEST CENTER</item>
+    <item>ARITAO EMISSION TESTING CENTER</item>
+    <item>AUTOMATIC EMISSION TESTING CENTER</item>
+    <item>AUTOSCAN EMISSION CENTER</item>
+    <item>AUTOTEC AUTOMOTIVE TESTING AND EMISSION CENTER</item>
+    <item>Autoverde Emission Testing Center</item>
+    <item>Avexson Corporation</item>
+    <item>B and N Motor Vehicle Emission Testing  Center</item>
+    <item>B.L.G. Smoke Emission Testing Center</item>
+    <item>Bacolod Emission Testing Center</item>
+    <item>Bagmet Vehicle ETC - Batangas</item>
+    <item>Baliuag ETC - Manila East</item>
+    <item>Banahaw ETC - Lucena City</item>
+    <item>BAYBAY EMISSION TESTING CENTER</item>
+    <item>BELDAD PRIVATE EMISSION TEST CENTER</item>
+    <item>BENCABS EMISSION TEST CENTER</item>
+    <item>Bethel Emission Testing Center</item>
+    <item>Bex Philips Emission Testing Center</item>
+    <item>BIBOY EMISSION TEST CENTER</item>
+    <item>BIG M SMOKE EMISSION TESTING CENTER</item>
+    <item>Big M Smoke Emission Testing Center - Bukidnon</item>
+    <item>BIG M SMOKE EMISSION TESTING CENTER - Cebu</item>
+    <item>BIL EMISSION TESTING CENTER</item>
+    <item>BIL EMISSION TESTING CENTER - Isabela</item>
+    <item>BJMT EMISSION TESTING CENTER</item>
+    <item>Bloom MPCI Vehicle Emission Testing Center</item>
+    <item>Blue Circle Emission Testing Center</item>
+    <item>BRO EMISSION TESTING CENTER</item>
+    <item>BSC PLUS EMISSION TESTING COMPANY - MABALACAT</item>
+    <item>BTAC Viejo Emission Testing Center</item>
+    <item>BVP Emission Testing Center, Inc.</item>
+    <item>BVP EMISSION TESTING CENTER, INC.- Pototan</item>
+    <item>C. S. AUTOLINK CORP.</item>
+    <item>CAGAYAN VALLEY EMISSION TESTING CENTER</item>
+    <item>Calapan Emission Testing Center</item>
+    <item>CAPITOL EMISSION TESTING CENTER</item>
+    <item>CAPSAR EMISSION TESTING CENTER</item>
+    <item>CARDAY EMISSION CENTER</item>
+    <item>CARDAY EMISSION TESTING - Estancia</item>
+    <item>CATALINA EMISSION TESTING CENTER</item>
+    <item>CEA SMOKE EMISSION TESTING CENTER</item>
+    <item>CEA SMOKE EMISSION TESTING CENTER - Yumang</item>
+    <item>CENTRO EMISSION TESTING CENTER</item>
+    <item>CITY EMISSION CENTER</item>
+    <item>CJ-FIVE EMISSION TESTING CENTER</item>
+    <item>CLEAN AIR EMISSION TESTING CENTER - Valenzuela</item>
+    <item>CLEAR AIR EMISSION DE ZAMBOANGA, INC.</item>
+    <item>CLEARWAY AUTO EMISSION TESTING CENTER</item>
+    <item>Coronacion Smoke Emission Testing Center</item>
+    <item>Cotabato EDTC - Cotabato City</item>
+    <item>Cotabato EDTC - Midsayap</item>
+    <item>CPB SMOKE EMISSION TESTING CENTER</item>
+    <item>CPP\'s Baguio-Benguet Emission Testing Center</item>
+    <item>D &amp; H EMISSION DIAGNOSTICS CORP.</item>
+    <item>D\' JAGNA EMISSION TESTING CENTER</item>
+    <item>Darren Migs Motor Vehicle ETC</item>
+    <item>Datuin Smoke Emission Testing Center</item>
+    <item>DAYONDON EMISSION TEST CENTER</item>
+    <item>DEM EMISSION TESTING CENTER</item>
+    <item>DGS Emission Testing Center</item>
+    <item>Dipolog City MVETCCC, Co.</item>
+    <item>Diverse Link Auto Emission Testing Center</item>
+    <item>DNE Emission Test and Services</item>
+    <item>DOUBLE J EMISSION TEST CENTER</item>
+    <item>DULCE EMISSION TESTING CENTER</item>
+    <item>DUMWAY VEHICLE EMISSION TESTING CENTER</item>
+    <item>Dumway Vehicle Emission Testing Center - Subic</item>
+    <item>E. V. Emisson Testing Center</item>
+    <item>EAL EMISSION TESTING CENTER</item>
+    <item>EAL EMISSION TESTING CENTER - Gensan</item>
+    <item>EAL EMISSION TESTING CENTER - San Jose</item>
+    <item>EASTERN JUSTIN EMISSION TESTING CENTER</item>
+    <item>EASTERN JUSTIN EMISSION TESTING CENTER - Dinagat Island</item>
+    <item>EASTERN JUSTIN EMISSION TESTING CENTER - Surigao City</item>
+    <item>EB Langitan Emission Testing Center</item>
+    <item>Eco Drive Private Emission Testing Center</item>
+    <item>ECO ENVIRO CARE ONE EMISSION TESTING CENTER</item>
+    <item>ECO ENVIRO CARE ONE EMISSION TESTING CENTER - Lucena</item>
+    <item>Eco Enviro Care One Emission Testing Center - Tagaytay</item>
+    <item>ECOSAFE EMISSION TESTING CENTER</item>
+    <item>EE CASCO EMISSION</item>
+    <item>EE CASCO EMISSION - Legazpi</item>
+    <item>EE CASCO EMISSION - Ligao</item>
+    <item>ELVA BLUE SKY EMISSION TESTING CENTER</item>
+    <item>EPICS EMISSION TESTING CENTER</item>
+    <item>EPICS II EMISSION TESTING CENTER</item>
+    <item>ESR EMISSION TESTING CENTER</item>
+    <item>ESR EMISSION TESTING CENTER - Sipocot</item>
+    <item>ESR EMISSION TESTING CENTER - Tabaco</item>
+    <item>ETS EMISSION TESTING CENTER</item>
+    <item>EVM MOTOR VEHICLE TESTING CENTER</item>
+    <item>Exodus Auto Smoke Emission Testing Center</item>
+    <item>Five "A" Emission Testing Center</item>
+    <item>FLOMEN EMISSION CENTER - Antipolo Branch</item>
+    <item>FLOMEN EMISSION TESTING CENTER - DIPOLOG CITY</item>
+    <item>Flomen Emission Testing Center-Molave Branch</item>
+    <item>FLV PRIVATE EMISSION TESTING CENTER</item>
+    <item>FLV PRIVATE EMISSION TESTING CENTER - Branch</item>
+    <item>FLV PRIVATE EMISSION TESTING CENTER - Cubao Branch</item>
+    <item>FLV Private Emission Testing Center - Sta Cruz Manila Branch</item>
+    <item>FMS EMISSION TESTING CENTER</item>
+    <item>Focus Emission Testing Center</item>
+    <item>Freshair Emission Testing Center</item>
+    <item>FULLSPEED EMISSION TEST CENTER INC.</item>
+    <item>GARNET EMISSION TESTING</item>
+    <item>Goldstar Emission Testing Center</item>
+    <item>Grahar Emission Testing Center - Antique</item>
+    <item>Grahar Emission Testing Center - Kalibo</item>
+    <item>GREEN AIR EMISSION TESTING CENTER</item>
+    <item>GREEN AUTO VENTURES EMISSION TESTING CENTER</item>
+    <item>Green City Smoke Emission Testing Center</item>
+    <item>GREEN EARTH EMISSION TESTING CENTER</item>
+    <item>GREEN ECOLOGY EMISSION TESTING CENTER</item>
+    <item>GREEN PEACE EMISSION TESTING CENTER</item>
+    <item>GREEN PEACE TESTING CENTER - Branch</item>
+    <item>Green Star Emission Testing Center - Tayuman</item>
+    <item>GREENMIND EMISSION TESTING CENTER - TUGUEGARAO</item>
+    <item>GSC Environmental Inc. (PETC)</item>
+    <item>HAPPY WHEELS EMISSION TESTING CENTER</item>
+    <item>HOPE EMISSION TESTING CENTER</item>
+    <item>HUMMING BIRD EMISSION TESTING CENTER</item>
+    <item>ISABEL EMISSION TESTING CENTER</item>
+    <item>J.O.C. Smoke Emission Testing Center</item>
+    <item>JAJM Smoke Emission Testing Center</item>
+    <item>JASMA EMISSION TESTING CENTER</item>
+    <item>JC4 Emission Testing Center</item>
+    <item>JCA EMISSION TESTING CENTER</item>
+    <item>JCA EMISSION TESTING CENTER - Lanang</item>
+    <item>JCAM Emission Testing Center</item>
+    <item>Jemar Emission Testing Center</item>
+    <item>JJJ GENSAN EMISSION TESTING CENTER</item>
+    <item>JJJ-Gensan Emission Testing Center</item>
+    <item>JLS SMOKE EMISSION TESTING CENTER</item>
+    <item>JMV EMISSION TESTING CENTER</item>
+    <item>JNS PRIVATE EMISSION TESTING CENTER</item>
+    <item>JOCA EMISSION TEST CENTER</item>
+    <item>Joy Emission Testing Center</item>
+    <item>JPV EMISSION TESTING CORP.  - Dumalag</item>
+    <item>JPV EMISSION TESTING CORP. - Bais</item>
+    <item>JPV EMISSION TESTING CORP. - Cavite</item>
+    <item>JPV EMISSION TESTING CORP. - Dumaguete</item>
+    <item>JPV Emission Testing Corp. - Himamaylan</item>
+    <item>JPV EMISSION TESTING CORP. - Kalibo</item>
+    <item>JPV EMISSION TESTING CORP. - Marikina</item>
+    <item>JPV EMISSION TESTING CORP. - Quintin Salas</item>
+    <item>JPV EMISSION TESTING CORP. - Roxas City</item>
+    <item>JPV EMISSION TESTING CORP. - Sambag Jaro, Iloilo</item>
+    <item>JPV EMISSION TESTING CORP. - Tagbilaran</item>
+    <item>JPV EMISSION TESTING CORP. - Tigbauan Iloilo Branch</item>
+    <item>JPV Emission Testing Corp. -Pontevedra</item>
+    <item>JPV Emission Testing Corporation - Guimaras Branch</item>
+    <item>JPV Emission Testing Corporation - Passi City Branch</item>
+    <item>JW PRIVATE EMISSION TESTING CENTER</item>
+    <item>KANTO-ROXAS EMISSION TEST CENTER</item>
+    <item>KENCZARH SMART ETC - Santiago </item>
+    <item>KGM Emission Testing Center</item>
+    <item>Kidapawan PETC, Inc.</item>
+    <item>KIDAPAWAN PETC, Inc. - Kabacan</item>
+    <item>King-Air Emission Testing Center</item>
+    <item>Labag Emission Testing Center - Arradaza</item>
+    <item>Labag Emission Testing Center - Roxas East</item>
+    <item>LANAO PRIVATE EMISSION TESTING CENTER</item>
+    <item>Laoag Emission Test Center</item>
+    <item>Lottex, Inc. ETC - Main</item>
+    <item>Louie\'s Emission Testing Center</item>
+    <item>Mabuhay Emission Test Center -  Mankilam</item>
+    <item>Mabuhay Emission Test Center - Asuncion</item>
+    <item>MABUHAY EMISSION TEST CENTER - Davao</item>
+    <item>Mabuhay Emission Test Center - Ma-a</item>
+    <item>Mabuhay Emission Test Center - Sasa</item>
+    <item>Mabuhay Emission Testing Center </item>
+    <item>Malaybalay PETC Inc,</item>
+    <item>Mamburao Vehicle Emission Testing Center</item>
+    <item>MANGAS EMISSION TESTING CENTER LTD., CO.</item>
+    <item>Marcel Motor Vehicle Emission Testing Center</item>
+    <item>MCROY EMISSION TEST CENTER CO.</item>
+    <item>MDS EMISSION TESTING</item>
+    <item>MG Emission Testing Center</item>
+    <item>Mindanao Clean Air Corporation - Davao</item>
+    <item>Mindanao Clean Air Corporation - Digos</item>
+    <item>Mindanao Clean Air Corporation - Gen San</item>
+    <item>Mindanao Clean Air Corporation - Panabo</item>
+    <item>Mindanao Clean Air Corporation - Tagum</item>
+    <item>MINDANAO CLEAN AIR CORPORATION-CAGAYAN</item>
+    <item>MJ EMISSION TESTING CENTER</item>
+    <item>Motor Vehicle PETC</item>
+    <item>MRJ EMISSION TESTING CENTER</item>
+    <item>MSSB Emission Testing Center Co.</item>
+    <item>MSSB EMISSION TESTING CENTER CO. - PILAR</item>
+    <item>MSSB ETC - San Rafael, Bulacan</item>
+    <item>NORTH POINT EMISSION TESTING CENTRE</item>
+    <item>Pagadian City Motor Vehicle Emission Testing Center &amp; Car Care Co.</item>
+    <item>PANGA EMISSION TESTING CENTER</item>
+    <item>Pangasinan Emission System MPC</item>
+    <item>PANGASINAN EMISSION SYSTEM MPC II</item>
+    <item>PAW Motor Vehicle Emission Testing Center</item>
+    <item>PAW MOTOR VEHICLE EMISSION TESTING CENTER - TALIBON BRANCH</item>
+    <item>PIONEER EMISSION TESTING CENTER, CO.</item>
+    <item>PITSTOP EMISSION TESTING CENTER</item>
+    <item>Polomolok PETC</item>
+    <item>Prencess Emission Testing Center - Novaliches</item>
+    <item>Primero Emission Testing Center - Rosales</item>
+    <item>Primero Emission Testing Center II - Urdaneta</item>
+    <item>Princess Aliah Emission Testing Center </item>
+    <item>PROTECTION EMISSION TESTING CENTER</item>
+    <item>R.G. FLORENTINO PRIVATE EMISSION TESTING CENTER</item>
+    <item>R\'5 Emission Testing Center </item>
+    <item>R5 EMISSION TESTING CENTER - BRANCH</item>
+    <item>RAJ Smoke Emission Testing Center</item>
+    <item>Rañeva Emission Testing Center</item>
+    <item>RDMS, INC. Functional Testing</item>
+    <item>RDP SMOKE EMISSION TESTING CENTER</item>
+    <item>Ren-Fil Emission Testing Center</item>
+    <item>REV-IT Private Emission Testing Center</item>
+    <item>RICO MPC SMOKE EMISSION TESTING CENTER</item>
+    <item>RIGIN EMISSION TESTING CENTER</item>
+    <item>RISING EIGHT EMISSION TESTING CENTER</item>
+    <item>RMC EMISSION TESTING CENTER</item>
+    <item>ROAD RUNNER EMISSION TESTING CENTER</item>
+    <item>Roadpower Emission Testing Center</item>
+    <item>Rockwoodtech Corp. Emission Testing Center - San Juan</item>
+    <item>Rockwoodtech Corp. Private Emission Testing Center - Calbayog</item>
+    <item>Ronald\'s Emission Testing Center</item>
+    <item>Roxas Motor Vehicle Emission Testing Center</item>
+    <item>RPA AUTO CLEAN TECHNOLOGY SERVICES</item>
+    <item>RRREDS ENTERPRISES, INC.</item>
+    <item>RST Emission Testing Center</item>
+    <item>RTJ EMISSION TESTING CENTER, INC.</item>
+    <item>Safe Air Emission Testing Center</item>
+    <item>SAINT JUDE EMISSION CENTER</item>
+    <item>Saint Jude Emission Center - Baliwasan</item>
+    <item>SAN JOSE EMISSION CENTER</item>
+    <item>SAN JOSE EMISSION TEST CENTER</item>
+    <item>SAN JOSE EMISSION TEST CENTER - Butuan</item>
+    <item>San Pablo Emission Testing Center - San Pablo, Laguna</item>
+    <item>SAN ROQUE EMISSION TEST CENTER - Compostela</item>
+    <item>San Roque Emission Test Center - Sto. Tomas</item>
+    <item>San Roque Emission Test Center - Tagum</item>
+    <item>San Roque Emission Testing Center</item>
+    <item>SAN ROQUE EMISSION TESTING CENTER - Nabunturan</item>
+    <item>SAN ROQUE Emission Testing Center - Panabo City</item>
+    <item>Santa Isabel Emission Test Center</item>
+    <item>SAVECO - SAVE ECOLOGY EMISSION TESTING CENTER - Branch</item>
+    <item>SAVECO SAVE ECOLOGY EMISSION TESTING CENTER</item>
+    <item>SETTE EMISSION TESTING CENTER</item>
+    <item>SETTE EMISSION TESTING CENTER - Rosario</item>
+    <item>Shekinah Smoke Emission Testing - Madrid</item>
+    <item>Shekinah Smoke Emission Testing Center</item>
+    <item>Shekinah Smoke Emission Testing Center - Nasipit</item>
+    <item>Shema Emission Testing Center, Inc.</item>
+    <item>SHEMA EMISSION TESTING CENTER, INC. - Naic</item>
+    <item>SIERRAFOX PRIVATE EMISSION TEST CENTER</item>
+    <item>Sierrafox Private Emission Test Center - Butuan</item>
+    <item>SIGMA SURE EMISSION TESTING CENTER</item>
+    <item>SM CABRISUS EMISSION TESTING CENTER - Butuan Branch</item>
+    <item>SN. ISIDRO LABRADOR SMOKE EMISSION TESTING CENTER</item>
+    <item>South Star Repair Specialist Inc.</item>
+    <item>SOUTHLAND EMISSION TEST CENTER</item>
+    <item>St. Francis Enterprises &amp; Emission Testing Center</item>
+    <item>St. Mary\'s Emission Test Center - Cabantian</item>
+    <item>St. Mary\'s Emission Test Center - Panabo</item>
+    <item>St. Mary\'s Emission Test Center - Sto. Tomas</item>
+    <item>ST. PIO EMISSION TESTING CENTER</item>
+    <item>ST. VINCENT EMISSION TESTING CENTER</item>
+    <item>STO. TOMAS EMISSION TEST CENTER</item>
+    <item>SUK EMISSION TESTING CENTER</item>
+    <item>Surigao City Emission Testing Center</item>
+    <item>SYU EMISSION TESTING CENTER</item>
+    <item>T AND J EMISSION TESTING CENTER</item>
+    <item>Tagum Emission Testing Center</item>
+    <item>TALIBON MOTOR VEHICLE EMISSION TESTING CENTER</item>
+    <item>TALISAY EMISSION TESTING CENTER</item>
+    <item>Tandag Emission Testing Center</item>
+    <item>test</item>
+    <item>TEYAP EMISSION TEST CENTER</item>
+    <item>TEYAP EMISSION TEST CENTER - Branch</item>
+    <item>TNT PRIVATE EMISSION TESTING CENTER AND SERVICES - Digos</item>
+    <item>TRINITY EMISSION TEST CENTER</item>
+    <item>Triple J Emission Testing Center</item>
+    <item>TUBIGON EMISSION TESTING CENTER</item>
+    <item>UNITED_PRIVATE EMISSION TEST CENTER INC.</item>
+    <item>Univille Motors Corporation - Makati City</item>
+    <item>Veterans Builder Private Emission Testing Center</item>
+    <item>VETERANS BUILDER PRIVATE EMISSION TESTING CENTER - Don Alfaro</item>
+    <item>VETERANS BUILDER PRIVATE EMISSION TESTING CENTER - Sta. Maria</item>
+    <item>Vida Smoke Emission Test Center</item>
+    <item>VLS EMISSION TESTING CENTER</item>
+    <item>VTA EMISSION TESTING CENTER</item>
+    <item>W. Priest House Emission Testing Center</item>
+    <item>WEARBEMPCO EMISSION TESTING CENTER</item>
+    <item>Winner Emission Testing Center</item>
+    <item>YANG-LAB EMISSION TESTING CENTER</item>
+    <item>Zamboanga ETCCC Inc.</item>
+    <item>Zamdipag Emission Testing Service, Inc.</item>
+  </string-array>
+</resources>
+
+

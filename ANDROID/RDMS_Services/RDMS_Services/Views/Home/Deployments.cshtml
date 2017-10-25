@@ -1,0 +1,33 @@
+﻿@model IEnumerable<RDMS_Services.Models.tblTechDeployment_data>
+
+@{
+    ViewBag.Title = "Deployments";
+}
+
+<br />
+<br />
+<h2>Deployments</h2>
+
+<div class="row">
+
+    <table border="1" class="table table-bordered" cellspacing="4" cellpadding="10">
+        <tr>
+            <th>Name</th>
+            <th>PETC Name</th>
+            <th>Task</th>
+
+        </tr>
+
+
+        @foreach (var item in Model)
+        {
+
+            <tr>
+                <td>@item.USERNAME</td>
+                <td>@item.PETCNAME</td>
+                <td>@item.TECH_TASKS</td>
+            </tr>
+        }
+
+    </table>
+</div>

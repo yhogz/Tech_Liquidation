@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="84.0dp">
+        <TextView
+            android:text="Tech Deployment"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="110.0dp"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:textColor="#ff01579b"
+            android:layout_marginBottom="11.0dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="337.0dp"
+        android:id="@+id/linearLayout1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="193.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout2">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="207.5dp"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout3">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="85.0dp"
+                    android:id="@+id/linearLayout4" />
+                <Button
+                    android:text="New Deployment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnM_NewDeployment"
+                    android:layout_marginLeft="11.5dp"
+                    android:background="@android:drawable/btn_default"
+                    android:textColor="@android:color/black" />
+                <Button
+                    android:text="View Deployment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnM_ViewDeployment"
+                    android:layout_marginLeft="11.5dp"
+                    android:background="@android:drawable/btn_default"
+                    android:textColor="@android:color/black" />
+                <Button
+                    android:text="Check Connection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnM_CheckConnection"
+                    android:layout_marginLeft="11.5dp"
+                    android:background="@android:drawable/btn_default"
+                    android:visibility="gone" />
+                <Button
+                    android:text="Check GPS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnCheckGPS"
+                    android:background="@android:drawable/btn_default"
+                    android:layout_marginLeft="11.5dp"
+                    android:textColor="@android:color/black"
+                    android:visibility="invisible" />
+                <Button
+                    android:text="Sign Up"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnSignUp"
+                    android:layout_marginLeft="11.5dp"
+                    android:background="@android:drawable/btn_default"
+                    android:textColor="@android:color/black"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:src="@drawable/pcmeal_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="81.0dp"
+        android:id="@+id/linearLayout6" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout1"
+        android:background="#ff01579b">
+        <TextView
+            android:text="Copy Right 2017,  version 1.0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="38.0dp"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="32.5dp"
+            android:layout_marginTop="6.5dp"
+            android:textColor="@android:color/background_light" />
+    </RelativeLayout>
+</LinearLayout>
